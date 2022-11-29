@@ -3,8 +3,18 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/mnCamera"
         android:icon="@android:drawable/ic_menu_camera"
-        android:title="Item" />
-    <item android:title="Item" />
-    <item android:title="Item" />
+        android:title="camera"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mnDelete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mnHelp"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="help"
+        app:showAsAction="collapseActionView" />
 </menu>
